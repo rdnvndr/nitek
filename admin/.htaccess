@@ -1,0 +1,8 @@
+AuthUserFile /home/n/nitekufaru/public_html/admin/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Nitek Admin"
+AuthType Basic
+
+<limit GET POST>
+require valid-user
+</limit>

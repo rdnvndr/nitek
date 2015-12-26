@@ -1,0 +1,188 @@
+<HTML>
+<HEAD>
+<!-- ssi-style begin -->
+<STYLE type=text/css>
+
+BODY     { background:#dedede ; 
+	   color: #000000; 
+	   MARGIN: 0 0 0 0; 
+	   FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+	 } 
+
+.mreg  { 
+    FONT-WEIGHT: normal; 
+    TEXT-ALIGN: center; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left:#1A242C solid 1px;
+    border-top:#1A242C solid 1px;
+    border-right:#BCC9D4 solid 1px;
+    border-bottom:#BCC9D4 solid 1px;
+    BACKGROUND: #efefef;
+}
+
+.mreg1  { 
+    FONT-WEIGHT: normal; 
+    TEXT-ALIGN: left; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left:#1A242C solid 1px;
+    border-top:#1A242C solid 1px;
+    border-right:#BCC9D4 solid 1px;
+    border-bottom:#BCC9D4 solid 1px;
+    BACKGROUND: #efefef;
+}
+
+
+
+.mfilt  { 
+    FONT-WEIGHT: normal; 
+    TEXT-ALIGN: left; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left:#1A242C solid 1px;
+    border-top:#1A242C solid 1px;
+    border-right:#BCC9D4 solid 1px;
+    border-bottom:#BCC9D4 solid 1px;
+    BACKGROUND: #efefef;
+}
+
+.tmain  { 
+    FONT-WEIGHT: normal; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    FONT-FAMILY: Helvetica, Sans-serif; 
+    TEXT-DECORATION: none
+    TEXT-ALIGN: justify
+}
+
+.mhead  { 
+    FONT-WEIGHT: bold; 
+    TEXT-ALIGN: center; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left:#1A242C solid 1px;
+    border-top:#1A242C solid 1px;
+    border-right:#BCC9D4 solid 1px;
+    border-bottom:#BCC9D4 solid 1px;
+    BACKGROUND: #ffffff;
+}
+
+.mnote  { 
+    FONT-WEIGHT: normal; 
+    TEXT-ALIGN: left; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left:#1A242C solid 1px;
+    border-top:#1A242C solid 1px;
+    border-right:#BCC9D4 solid 1px;
+    border-bottom:#BCC9D4 solid 1px;
+    BACKGROUND: #efefef;
+}
+.mkor  { 
+    FONT-WEIGHT: normal; 
+    TEXT-ALIGN: center; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    TEXT-DECORATION: none;
+    border-left: #f5f5f5 solid 1px;
+    border-top: #f5f5f5 solid 1px;
+    border-right: #f5f5f5 solid 1px;
+    border-bottom: #f5f5f5 solid 1px;
+    BACKGROUND: #f5f5f5;
+}
+.textrazdel  {  
+    COLOR: #000000 ; 
+    FONT-SIZE: 13px; 
+    FONT-WEIGHT: normal; 
+    FONT-FAMILY: 'Arial';
+    TEXT-DECORATION: none;
+    TEXT-ALIGN: justify;
+}
+
+.ttt  { 
+    FONT-WEIGHT: normal; 
+    COLOR: #000000 ; 
+    FONT-SIZE: 12px; 
+    FONT-FAMILY: Helvetica, Sans-serif; 
+    TEXT-DECORATION: none
+    TEXT-ALIGN: justify
+    border-left: #000000 solid 4px;
+    border-top: #f5f5f5 solid 1px;
+    border-right: #f5f5f5 solid 1px;
+    border-bottom: #f5f5f5 solid 1px;
+    BACKGROUND: #f5f5f5;
+}
+
+.mn A           { COLOR: #000000; 
+		  FONT-WEIGHT: normal; 
+		  FONT-SIZE: 13px; 
+		  FONT-FAMILY: Helvetica, Sans-serif; 
+		  TEXT-DECORATION: none}
+		  
+.mn A:link      { COLOR: #000000;
+		  FONT-SIZE: 13px; 
+		  FONT-WEIGHT: normal; 
+                  FONT-FAMILY: Helvetica, Sans-serif; 
+		  TEXT-DECORATION: none}
+		  
+.mn A:visited   { COLOR: #000000; 
+		  FONT-SIZE: 13px; 
+		  FONT-WEIGHT: normal; 
+		  FONT-FAMILY: Helvetica, Sans-serif; 
+		  TEXT-DECORATION: none}
+		  
+.mn A:active    { COLOR: #000000; 
+		  FONT-SIZE: 13px; 
+		  FONT-WEIGHT: normal; 
+		  FONT-FAMILY: Helvetica, Sans-serif; 
+		  TEXT-DECORATION: none}
+		  
+.mn A:hover     { COLOR: #000000; 
+		  FONT-SIZE: 13px; 
+		  FONT-WEIGHT: normal; 
+		  FONT-FAMILY: Helvetica, Sans-serif; 
+		  TEXT-DECORATION: none}
+		  
+.mnb A           { COLOR: #000000; 
+		  FONT-WEIGHT: bold; 
+		  FONT-SIZE: 12px; 
+		  FONT-FAMILY: Arial; 
+		  TEXT-DECORATION: none}
+		  
+.mnb A:link      { COLOR: #000000;
+		  FONT-SIZE: 12px; 
+		  FONT-WEIGHT: bold; 
+                  FONT-FAMILY: Arial; 
+		  TEXT-DECORATION: none}
+		  
+.mnb A:visited   { COLOR: #000000; 
+		  FONT-SIZE: 12px; 
+		  FONT-WEIGHT: bold; 
+		  FONT-FAMILY: Arial; 
+		  TEXT-DECORATION: none}
+		  
+.mnb A:active    { COLOR: #000000; 
+		  FONT-SIZE: 12px; 
+		  FONT-WEIGHT: bold; 
+		  FONT-FAMILY: Arial; 
+		  TEXT-DECORATION: none}
+		  
+.mnb A:hover     { COLOR: #000000; 
+		  FONT-SIZE: 12px; 
+		  FONT-WEIGHT: bold; 
+		  FONT-FAMILY: Arial; 
+		  TEXT-DECORATION: none}
+
+
+</STYLE>
+<!-- ssi-style end -->
+<BODY>
+</BODY>
+</HEAD>
+</HTML>
